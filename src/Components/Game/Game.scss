@@ -1,0 +1,33 @@
+.game {
+    display: flex;
+    justify-content: space-around;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        height: 700px;
+        width: 700px;
+        flex-wrap: wrap;
+        &_block {
+            display: block;
+            box-sizing: border-box;
+            background-color: blue;
+            width: 10%;
+            height: 10%;
+            border: 2px solid white;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    &__toolbar {
+
+        &_button {
+            margin-top: 20px;
+            display: block  ;
+            width: 200px;
+            height: 100px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+
+}
